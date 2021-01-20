@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
 * {
     margin: 10px;
     padding: 0;
@@ -11,22 +13,32 @@ body {
 
 }
 
-.calculator_display {
-    background-color: #a171ee;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: right;
-
-    font-size: 16px;
+.my_name {
+    color: lavender;
+    text-shadow: 2px 2px 5px red;
+    background-color: #f1a039;
+    width: 55%;
+    font-size: 25px;
+    font-family: 'Potta One', cursive;
+    border-radius: 15px;
 }
 
-.calculator_keys {
-    display: flex;
+.calculator_card {
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    width : 350px;
+    box-shadow: 5px; 
+}
+
+.display{
+    border-radius: 10px;
+    background-color: tomato;
+
    }
 
-
-button {
+.row0 button {
     color: white;
     border-radius: 50px;
     background-color: rgba(0, 136, 169, 1);
@@ -36,8 +48,52 @@ button {
     transition: all 0.3s ease 0s;
 }
 
+.row1 button {
+    color: white;
+    border-radius: 50px;
+    background-color: rgba(0, 136, 169, 1);
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.row2 button {
+    color: white;
+    border-radius: 50px;
+    background-color: rgba(0, 136, 169, 1);
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.row3 button {
+    color: white;
+    border-radius: 50px;
+    background-color: rgba(0, 136, 169, 1);
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.row4 button {
+    color: white;
+    border-radius: 50px;
+    background-color: rgba(0, 136, 169, 1);
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+button{
+    box-shadow: 3px 3px 5px black;
+}
 button:hover {
+
     color: white;
     background-color: rgba(0, 111, 169, 0.2);
 }
-
