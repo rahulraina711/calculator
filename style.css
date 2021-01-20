@@ -14,10 +14,11 @@ body {
 }
 
 .my_name {
+    box-sizing: border-box;
     color: lavender;
     text-shadow: 2px 2px 5px red;
-    background-color: #f1a039;
-    width: 40%;
+
+    width: 25%;
     font-size: 25px;
     font-family: 'Potta One', cursive;
     border-radius: 15px;
