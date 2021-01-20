@@ -17,14 +17,14 @@ body {
     color: lavender;
     text-shadow: 2px 2px 5px red;
     background-color: #f1a039;
-    width: 55%;
+    width: 40%;
     font-size: 25px;
     font-family: 'Potta One', cursive;
     border-radius: 15px;
 }
 
 .calculator_card {
-    border-radius: 7px;
+    border-radius: 17px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: grey;
@@ -33,10 +33,19 @@ body {
 }
 
 .display{
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: tomato;
 
    }
+
+input[type=text]{
+    width: 94%;
+    padding:12px 20px;
+    display: inline-flex;
+    border: 1px solid rgb(236, 78, 78);
+    border-radius: 25px;
+    box-sizing:border-box;
+}
 
 .row0 button {
     color: white;
