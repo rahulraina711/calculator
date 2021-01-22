@@ -25,10 +25,10 @@ body {
 }
 
 .calculator_card {
-    border-radius: 17px;
+    border-radius: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: grey;
+    background-color: rgb(133, 90, 90);
     width : 350px;
     box-shadow: 5px; 
 }
@@ -99,9 +99,6 @@ input[type=text]{
     
 }
 
-button{
-    box-shadow: 3px 3px 5px black;
-}
 button:hover {
 
     color: white;
